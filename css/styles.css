@@ -828,6 +828,11 @@ header .search
     max-width: 100%;
 }
 
+header .search.mini
+{
+    width: 232px;
+}
+
 header .search form
 {
     display: flex;
@@ -962,6 +967,130 @@ header .socials a:hover
 
 
 
+header .favorite .link
+{
+    color: #4f4f4f;
+    font-size: 15px;
+    line-height: 19px;
+
+    position: relative;
+
+    display: block;
+
+    transition: color .2s linear;
+    text-align: center;
+    text-decoration: none;
+}
+
+header .favorite .link .icon
+{
+    display: block;
+
+    width: 19px;
+    height: 17px;
+    margin: 0 auto 3px;
+
+    fill: #ec691f;
+}
+
+header .favorite .link .count
+{
+    color: #4f4f4f;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 20px;
+
+    position: absolute;
+    top: -10px;
+    left: 50%;
+
+    width: 20px;
+    height: 20px;
+    margin-left: 4px;
+
+    transition: .2s linear;
+    text-align: center;
+
+    border-radius: 50%;
+    background: #e0e0e0;
+}
+
+header .favorite .link:hover
+{
+    color: #000;
+}
+
+header .favorite .link:hover .count
+{
+    color: #fff;
+
+    background: #f95a00;
+}
+
+
+
+header .cart .link
+{
+    color: #4f4f4f;
+    font-size: 15px;
+    line-height: 19px;
+
+    position: relative;
+
+    display: block;
+
+    transition: color .2s linear;
+    text-align: center;
+    text-decoration: none;
+}
+
+header .cart .link .icon
+{
+    display: block;
+
+    width: 18px;
+    height: 18px;
+    margin: 0 auto 2px;
+
+    fill: #ec691f;
+}
+
+header .cart .link .count
+{
+    color: #4f4f4f;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 20px;
+
+    position: absolute;
+    top: -10px;
+    left: 50%;
+
+    width: 20px;
+    height: 20px;
+    margin-left: 4px;
+
+    transition: .2s linear;
+    text-align: center;
+
+    border-radius: 50%;
+    background: #e0e0e0;
+}
+
+header .cart .link:hover
+{
+    color: #000;
+}
+
+header .cart .link:hover .count
+{
+    color: #fff;
+
+    background: #f95a00;
+}
+
+
+
 header .account .login_btn
 {
     color: #7e8186;
@@ -982,6 +1111,36 @@ header .account .login_btn .icon
     margin: 0 auto 3px;
 
     fill: #ec691f;
+}
+
+
+header .account .link
+{
+    color: #4f4f4f;
+    font-size: 15px;
+    line-height: 19px;
+
+    display: block;
+
+    transition: color .2s linear;
+    text-align: center;
+    text-decoration: none;
+}
+
+header .account .link .icon
+{
+    display: block;
+
+    width: 18px;
+    height: 17px;
+    margin: 0 auto 3px;
+
+    fill: #ec691f;
+}
+
+header .account .link:hover
+{
+    color: #000;
 }
 
 
@@ -1135,7 +1294,7 @@ header .menu
 
 header .menu .item + .item
 {
-    margin-left: 43px;
+    margin-left: 45px;
 }
 
 header .menu .item > a
@@ -1284,12 +1443,126 @@ header .menu .item > a.active:after
 }
 
 
+.mob_header .favorite
+{
+    margin-left: 8px;
+}
+
+.mob_header .favorite .link
+{
+    color: #4f4f4f;
+
+    position: relative;
+
+    display: flex;
+
+    width: 38px;
+    height: 38px;
+
+    text-decoration: none;
+
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.mob_header .favorite .link .icon
+{
+    display: block;
+
+    width: 19px;
+    height: 17px;
+
+    fill: #ec691f;
+}
+
+.mob_header .favorite .link .count
+{
+    color: #4f4f4f;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 20px;
+
+    position: absolute;
+    top: 0;
+    left: 50%;
+
+    width: 20px;
+    height: 20px;
+    margin-left: 4px;
+
+    text-align: center;
+
+    border-radius: 50%;
+    background: #e0e0e0;
+}
+
+
+.mob_header .cart
+{
+    margin-left: 8px;
+}
+
+.mob_header .cart .link
+{
+    color: #4f4f4f;
+
+    position: relative;
+
+    display: flex;
+
+    width: 38px;
+    height: 38px;
+
+    text-decoration: none;
+
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.mob_header .cart .link .icon
+{
+    display: block;
+
+    width: 18px;
+    height: 18px;
+
+    fill: #ec691f;
+}
+
+.mob_header .cart .link .count
+{
+    color: #4f4f4f;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 20px;
+
+    position: absolute;
+    top: 0;
+    left: 50%;
+
+    width: 20px;
+    height: 20px;
+    margin-left: 4px;
+
+    text-align: center;
+
+    border-radius: 50%;
+    background: #e0e0e0;
+}
+
+
 .mob_header .account
 {
     margin-left: 8px;
 }
 
-.mob_header .account .login_btn
+
+.mob_header .account .login_btn,
+.mob_header .account .link
 {
     display: flex;
 
@@ -1302,7 +1575,8 @@ header .menu .item > a.active:after
     flex-wrap: wrap;
 }
 
-.mob_header .account .login_btn .icon
+.mob_header .account .login_btn .icon,
+.mob_header .account .link .icon
 {
     display: block;
 

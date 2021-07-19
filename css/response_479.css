@@ -76,14 +76,36 @@
     .mob_header .logo a,
     .mob_header .logo img
     {
+        height: 27px;
+    }
+
+
+    .mob_header .search .btn,
+    .mob_header .favorite .link,
+    .mob_header .cart .link,
+    .mob_header .account .login_btn,
+    .mob_header .account .link
+    {
+        width: 32px;
         height: 32px;
     }
 
 
-    .mob_header .account,
+    .mob_header .favorite,
+    .mob_header .cart,
+    .mob_header .account
+    {
+        margin-left: 2px;
+    }
+
+
     .mob_header .mob_menu_btn
     {
-        margin-left: 4px;
+        width: 38px;
+        height: 32px;
+        margin-right: -7px;
+        margin-left: 0;
+        padding: 7px;
     }
 
 

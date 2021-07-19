@@ -89,6 +89,29 @@
     }
 
 
+
+    header .favorite,
+    header .cart,
+    header .account
+    {
+        align-self: center;
+    }
+
+    header .favorite .link div:last-child,
+    header .cart .link div:last-child,
+    header .account .link div:last-child
+    {
+        display: none;
+    }
+
+    header .favorite .link .icon,
+    header .cart .link .icon,
+    header .account .link .icon
+    {
+        margin: 0;
+    }
+
+
     header .catalog
     {
         width: 220px;

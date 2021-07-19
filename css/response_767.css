@@ -53,6 +53,31 @@
     }
 
 
+    .mob_header .favorite,
+    .mob_header .cart,
+    .mob_header .account
+    {
+        margin-left: 0;
+    }
+
+    .mob_header .favorite .link .count,
+    .mob_header .cart .link .count
+    {
+        font-size: 10px;
+        line-height: 16px;
+
+        width: 16px;
+        height: 16px;
+        margin-left: 2px;
+    }
+
+
+    .mob_header .mob_menu_btn
+    {
+        margin-left: 4px;
+    }
+
+
 
     header .contacts
     {
