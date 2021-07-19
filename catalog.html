@@ -1,0 +1,842 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+		<!-- Адаптирование страницы для мобильных устройств -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+		<!-- Запрет распознования номера телефона -->
+		<meta name="format-detection" content="telephone=no">
+		<meta name="SKYPE_TOOLBAR" content ="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
+
+		<!-- Заголовок страницы -->
+		<title>Заголовок страницы</title>
+
+		<!-- Данное значение часто используют(использовали) поисковые системы -->
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+
+		<!-- Традиционная иконка сайта, размер 16x16, прозрачность поддерживается. Рекомендуемый формат: .ico или .png -->
+		<link rel="shortcut icon" href="favicon.ico">
+
+		<!-- Изменение цвета панели моб. браузера -->
+		<meta name="msapplication-TileColor" content="#EC691F">
+		<meta name="theme-color" content="#EC691F">
+
+		<!-- Подключение шрифтов с гугла -->
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+		<!-- Подключение файлов стилей -->
+		<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+		<link rel="stylesheet" href="css/swiper.css">
+		<link rel="stylesheet" href="css/fancybox.css">
+		<link rel="stylesheet" href="css/styles.css">
+
+		<link rel="stylesheet" href="css/response_1279.css" media="print, (max-width: 1279px)">
+		<link rel="stylesheet" href="css/response_1023.css" media="print, (max-width: 1023px)">
+		<link rel="stylesheet" href="css/response_767.css" media="print, (max-width: 767px)">
+		<link rel="stylesheet" href="css/response_479.css" media="(max-width: 479px)">
+	</head>
+
+	<body>
+		<div class="wrap">
+			<div class="main">
+				<header>
+					<button class="close"></button>
+
+					<div class="mob_scroll">
+						<div class="info">
+							<div class="cont row">
+								<a href="/" class="logo">
+									<img src="images/logo.svg" alt="">
+								</a>
+
+								<div class="contacts">
+									<div class="phone">
+										<a href="tel:88007008016">8(800)700-80-16</a>
+									</div>
+
+									<div class="email">
+										<a href="mailto:info@textime.ru">
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_email"></use></svg>
+											<span>info@textime.ru</span>
+										</a>
+									</div>
+								</div>
+
+								<div class="search">
+									<form action="">
+										<input type="text" name="" value="" class="input" placeholder="Поиск...">
+
+										<button type="submit" class="submit_btn">
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_search"></use></svg>
+										</button>
+									</form>
+								</div>
+
+								<div class="socials">
+									<a href="/" target="_blank" rel="noopener nofollow" class="vkontakte_link">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_vkontakte"></use></svg>
+									</a>
+
+									<a href="/" target="_blank" rel="noopener nofollow" class="facebook_link">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_facebook"></use></svg>
+									</a>
+
+									<a href="/" target="_blank" rel="noopener nofollow" class="youtube_link">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_youtube"></use></svg>
+									</a>
+								</div>
+
+								<div class="account">
+									<button class="login_btn">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_user"></use></svg>
+										<div>Личный кабинет</div>
+									</button>
+								</div>
+							</div>
+						</div>
+
+
+						<div class="bottom">
+							<div class="cont row">
+								<div class="catalog modal_cont">
+									<button class="btn mini_modal_btn" data-modal-id="#catalog_modal">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_catalog"></use></svg>
+										<span>Каталог</span>
+									</button>
+
+									<div class="mini_modal" id="catalog_modal">
+										<div class="row">
+											<div class="category">
+												<div class="title">
+													<a href="/">Ткани для силовых структур</a>
+												</div>
+
+												<div class="sub_cats">
+													<div><a href="/">Ткани антистатические</a></div>
+													<div><a href="/">Ткани для сварки  и металлургии</a></div>
+													<div><a href="/">Ткани мета-арамидные</a></div>
+													<div><a href="/">Ткани огнестойкие</a></div>
+													<div><a href="/">Трикотаж огнестойкий</a></div>
+													<div><a href="/">Ткани мультизащитные</a></div>
+													<div><a href="/">Сопутствующие материалы опз</a></div>
+													<div><a href="/">Защита от кислот, растворов  и щелочей</a></div>
+												</div>
+											</div>
+
+											<div class="category">
+												<div class="title">
+													<a href="/">Защитные ткани для спецодежды</a>
+												</div>
+
+												<div class="sub_cats">
+													<div><a href="/">Блузки, сорочки</a></div>
+													<div><a href="/">Коллекция для поваров. Horeca</a></div>
+													<div><a href="/">Коллекция печатных рисунков</a></div>
+													<div><a href="/">Медицинская одежда</a></div>
+													<div><a href="/">Одежда для обслуживающего персонала</a></div>
+													<div><a href="/">Новые волокна - новые эффекты</a></div>
+													<div><a href="/">Одежда для хирургов</a></div>
+													<div><a href="/">Ткани для наматрасников</a></div>
+													<div><a href="/">Стретч-комфорт в сервисной одежде</a></div>
+												</div>
+											</div>
+
+											<div class="category">
+												<div class="title">
+													<a href="/">Ткани для медицины и ОПЗ</a>
+												</div>
+
+												<div class="sub_cats">
+													<div><a href="/">Курточные ткани</a></div>
+													<div><a href="/">Защита от масел и кислот до 60%</a></div>
+													<div><a href="/">Защита от нетоксичной пыли</a></div>
+													<div><a href="/">Комфорт хлопка</a></div>
+													<div><a href="/">Общепроизводственная одежда</a></div>
+													<div><a href="/">Сигнальная одежда (флуоресцентные ткани и материалы</a></div>
+													<div><a href="/">Стретч-комфорт</a></div>
+													<div><a href="/">Ткани для наматрасников</a></div>
+												</div>
+											</div>
+
+											<div class="category">
+												<div class="title">
+													<a href="/">Ткани для Outdoor</a>
+												</div>
+											</div>
+
+											<div class="category">
+												<div class="title">
+													<a href="/">Технические и обувные материалы</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+
+
+								<nav class="menu row">
+									<div class="item">
+										<a href="/">Партнёры</a>
+									</div>
+
+									<div class="item">
+										<a href="/">О компании</a>
+									</div>
+
+									<div class="item">
+										<a href="/">Новости</a>
+									</div>
+
+									<div class="item">
+										<a href="/">Контакты</a>
+									</div>
+
+									<div class="item">
+										<a href="/">Вакансии</a>
+									</div>
+
+									<div class="item">
+										<a href="/">Условия/доставка</a>
+									</div>
+
+									<div class="item">
+										<a href="/">Технологии</a>
+									</div>
+								</nav>
+							</div>
+						</div>
+					</div>
+				</header>
+
+
+				<section class="mob_header">
+					<div class="cont">
+						<div class="logo">
+							<img src="images/logo.svg" alt="">
+						</div>
+
+						<div class="contacts">
+							<div class="phone">
+								<a href="tel:88007008016">8(800)700-80-16</a>
+							</div>
+
+							<div class="email">
+								<a href="mailto:info@textime.ru">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_email"></use></svg>
+									<span>info@textime.ru</span>
+								</a>
+							</div>
+						</div>
+
+						<div class="search modal_cont">
+							<button class="btn mini_modal_btn" data-modal-id="#mob_search_modal">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_search"></use></svg>
+							</button>
+
+							<div class="mini_modal" id="mob_search_modal">
+								<form action="">
+									<input type="text" name="" value="" class="input" placeholder="Поиск...">
+
+									<button type="submit" class="submit_btn">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_search"></use></svg>
+									</button>
+								</form>
+							</div>
+						</div>
+
+						<div class="account">
+							<button class="login_btn">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_user"></use></svg>
+							</button>
+						</div>
+
+						<button class="mob_menu_btn">
+							<span></span>
+						</button>
+					</div>
+				</section>
+
+
+				<section class="industries">
+					<div class="cont">
+						<div class="row">
+							<a href="/" class="item">
+								<div class="thumb">
+									<img data-src="images/tmp/industries_thumb1.jpg" alt="" class="lozad">
+								</div>
+
+								<div class="info">
+									<div class="name">Ткани для силовых структур</div>
+								</div>
+							</a>
+
+							<a href="/" class="item big_h">
+								<div class="thumb">
+									<img data-src="images/tmp/industries_thumb2.jpg" alt="" class="lozad">
+								</div>
+
+								<div class="info">
+									<div class="name">Защитные ткани для спецодежды</div>
+								</div>
+							</a>
+
+							<a href="/" class="item">
+								<div class="thumb">
+									<img data-src="images/tmp/industries_thumb3.jpg" alt="" class="lozad">
+								</div>
+
+								<div class="info">
+									<div class="name">Ткани для медицины и ОПЗ</div>
+								</div>
+							</a>
+
+							<a href="/" class="item">
+								<div class="thumb">
+									<img data-src="images/tmp/industries_thumb4.jpg" alt="" class="lozad">
+								</div>
+
+								<div class="info">
+									<div class="name">Ткани для Outdoor</div>
+								</div>
+							</a>
+
+							<a href="/" class="item">
+								<div class="thumb">
+									<img data-src="images/tmp/industries_thumb5.jpg" alt="" class="lozad">
+								</div>
+
+								<div class="info">
+									<div class="name">Технические и обувные материалы</div>
+								</div>
+							</a>
+						</div>
+					</div>
+				</section>
+
+
+				<section class="page_head no_margin">
+					<div class="cont">
+						<div class="breadcrumbs">
+							<a href="/">Главная</a> <span class="sep"></span>
+							<a href="/">Каталог</a> <span class="sep"></span>
+							<a href="/">Защитные ткани и материалы </a> <span class="sep"></span>
+							<a href="/">Ткани антистатические</a> <span class="sep"></span>
+							<span class="current">Томбой® Carrington Эластолефин (EOL)</span>
+						</div>
+					</div>
+				</section>
+
+
+				<section class="materials block bg_white no_border">
+					<div class="cont">
+						<div class="block_head">
+							<div class="title line"><b>Защитные ткани и материалы</b></div>
+
+							<div class="banner">
+								<a href="/">
+									<img data-src="images/tmp/banner_img.png" alt="" class="lozad">
+								</a>
+							</div>
+						</div>
+
+						<div class="row">
+							<a href="/" class="material">
+								<div class="thumb">
+									<img data-src="images/tmp/material_thumb1.jpg" alt="" class="lozad">
+								</div>
+								<div class="name">Ткани антистатические</div>
+							</a>
+
+							<a href="/" class="material">
+								<div class="thumb">
+									<img data-src="images/tmp/material_thumb2.jpg" alt="" class="lozad">
+								</div>
+								<div class="name">Ткани для сварки и металлургии</div>
+							</a>
+
+							<a href="/" class="material">
+								<div class="thumb">
+									<img data-src="images/tmp/material_thumb3.jpg" alt="" class="lozad">
+								</div>
+								<div class="name">Ткани мета-арамидные</div>
+							</a>
+
+							<a href="/" class="material">
+								<div class="thumb">
+									<img data-src="images/tmp/material_thumb4.jpg" alt="" class="lozad">
+								</div>
+								<div class="name">Ткани огнестойкие</div>
+							</a>
+
+							<a href="/" class="material">
+								<div class="thumb">
+									<img data-src="images/tmp/material_thumb5.jpg" alt="" class="lozad">
+								</div>
+								<div class="name">Трикотаж огнестойкий</div>
+							</a>
+
+							<a href="/" class="material">
+								<div class="thumb">
+									<img data-src="images/tmp/material_thumb6.jpg" alt="" class="lozad">
+								</div>
+								<div class="name">Ткани мультизащитные</div>
+							</a>
+
+							<a href="/" class="material">
+								<div class="thumb">
+									<img data-src="images/tmp/material_thumb7.jpg" alt="" class="lozad">
+								</div>
+								<div class="name">Сопутствующие материалы ОПЗ</div>
+							</a>
+
+							<a href="/" class="material">
+								<div class="thumb">
+									<img data-src="images/tmp/material_thumb8.jpg" alt="" class="lozad">
+								</div>
+								<div class="name">Защита от кислот, растворов  и щелочей</div>
+							</a>
+						</div>
+					</div>
+				</section>
+
+
+				<section class="selection block">
+					<div class="cont">
+						<div class="block_head center">
+							<div class="title">Подбор ткани <b>по параметрам</b></div>
+						</div>
+
+						<form action="">
+							<div class="grid">
+								<div class="section big_h">
+									<div class="title">Профессия</div>
+
+									<div class="field">
+										<input type="checkbox" name="group1" id="group1_check1" checked>
+										<label for="group1_check1" class="checkbox">Костюмы сварщика</label>
+									</div>
+
+									<div class="field">
+										<input type="checkbox" name="group1" id="group1_check2">
+										<label for="group1_check2" class="checkbox">Для нефтегазовой отрасли</label>
+									</div>
+
+									<div class="field">
+										<input type="checkbox" name="group1" id="group1_check3">
+										<label for="group1_check3" class="checkbox">Для энергетической отрасли</label>
+									</div>
+
+									<div class="field">
+										<input type="checkbox" name="group1" id="group1_check4" checked>
+										<label for="group1_check4" class="checkbox">Медицинские косюмы</label>
+									</div>
+
+									<div class="field">
+										<input type="checkbox" name="group1" id="group1_check5" checked>
+										<label for="group1_check5" class="checkbox">Костюмы для шахтеров</label>
+									</div>
+
+									<div class="field">
+										<input type="checkbox" name="group1" id="group1_check6">
+										<label for="group1_check6" class="checkbox">Общепризводственная одежда</label>
+									</div>
+
+									<div class="field">
+										<input type="checkbox" name="group1" id="group1_check7">
+										<label for="group1_check7" class="checkbox">Пищевая промышленность</label>
+									</div>
+
+									<div class="field">
+										<input type="checkbox" name="group1" id="group1_check8">
+										<label for="group1_check8" class="checkbox">Сервисная одежда</label>
+									</div>
+
+									<div class="field">
+										<input type="checkbox" name="group1" id="group1_check9">
+										<label for="group1_check9" class="checkbox">Фармацевтика/лакокрасочные производства</label>
+									</div>
+
+									<div class="field">
+										<input type="checkbox" name="group1" id="group1_check10">
+										<label for="group1_check10" class="checkbox">Силовые структуры, ведомства</label>
+									</div>
+
+									<div class="field">
+										<input type="checkbox" name="group1" id="group1_check11">
+										<label for="group1_check11" class="checkbox">Работа под открытым небом, активный отдых</label>
+									</div>
+
+									<div class="field">
+										<input type="checkbox" name="group1" id="group1_check12">
+										<label for="group1_check12" class="checkbox">Горные работы</label>
+									</div>
+
+									<div class="field">
+										<input type="checkbox" name="group1" id="group1_check13">
+										<label for="group1_check13" class="checkbox">Авиация</label>
+									</div>
+
+									<div class="field">
+										<input type="checkbox" name="group1" id="group1_check14">
+										<label for="group1_check14" class="checkbox">Лесорубы</label>
+									</div>
+
+									<div class="field">
+										<input type="checkbox" name="group1" id="group1_check15">
+										<label for="group1_check15" class="checkbox">Энергетическая отрасль</label>
+									</div>
+								</div>
+
+
+								<div class="section">
+									<div class="title">Факторы риска и свойства</div>
+
+									<div class="check_icons">
+										<div class="field">
+											<input type="checkbox" name="group2" id="group2_check1" checked>
+											<label for="group2_check1">
+												<svg class="icon"><use xlink:href="images/sprite.svg#ic_selection_check_icons1"></use></svg>
+											</label>
+										</div>
+
+										<div class="field">
+											<input type="checkbox" name="group2" id="group2_check2" checked>
+											<label for="group2_check2">
+												<svg class="icon"><use xlink:href="images/sprite.svg#ic_selection_check_icons2"></use></svg>
+											</label>
+										</div>
+
+										<div class="field">
+											<input type="checkbox" name="group2" id="group2_check3">
+											<label for="group2_check3">
+												<svg class="icon"><use xlink:href="images/sprite.svg#ic_selection_check_icons3"></use></svg>
+											</label>
+										</div>
+
+										<div class="field">
+											<input type="checkbox" name="group2" id="group2_check4">
+											<label for="group2_check4">
+												<svg class="icon"><use xlink:href="images/sprite.svg#ic_selection_check_icons4"></use></svg>
+											</label>
+										</div>
+
+										<div class="field">
+											<input type="checkbox" name="group2" id="group2_check5">
+											<label for="group2_check5">
+												<svg class="icon"><use xlink:href="images/sprite.svg#ic_selection_check_icons5"></use></svg>
+											</label>
+										</div>
+
+										<div class="field">
+											<input type="checkbox" name="group2" id="group2_check6">
+											<label for="group2_check6">
+												<svg class="icon"><use xlink:href="images/sprite.svg#ic_selection_check_icons6"></use></svg>
+											</label>
+										</div>
+
+										<div class="field">
+											<input type="checkbox" name="group2" id="group2_check7">
+											<label for="group2_check7">
+												<svg class="icon"><use xlink:href="images/sprite.svg#ic_selection_check_icons7"></use></svg>
+											</label>
+										</div>
+
+										<div class="field">
+											<input type="checkbox" name="group2" id="group2_check8">
+											<label for="group2_check8">
+												<svg class="icon"><use xlink:href="images/sprite.svg#ic_selection_check_icons8"></use></svg>
+											</label>
+										</div>
+
+										<div class="field">
+											<input type="checkbox" name="group2" id="group2_check9">
+											<label for="group2_check9">
+												<svg class="icon"><use xlink:href="images/sprite.svg#ic_selection_check_icons9"></use></svg>
+											</label>
+										</div>
+									</div>
+								</div>
+
+
+								<div class="section">
+									<div class="title">Состав</div>
+
+									<div class="field">
+										<input type="checkbox" name="group3" id="group3_check1">
+										<label for="group3_check1" class="checkbox">Хлопковые ткани</label>
+									</div>
+
+									<div class="field">
+										<input type="checkbox" name="group3" id="group3_check2">
+										<label for="group3_check2" class="checkbox">Смесовые ткани (с хлопком)</label>
+									</div>
+
+									<div class="field">
+										<input type="checkbox" name="group3" id="group3_check3">
+										<label for="group3_check3" class="checkbox">Смесовые ткани (с хлопком)</label>
+									</div>
+
+									<div class="field">
+										<input type="checkbox" name="group3" id="group3_check4">
+										<label for="group3_check4" class="checkbox">Синтетические ткани</label>
+									</div>
+
+									<div class="field">
+										<input type="checkbox" name="group3" id="group3_check5">
+										<label for="group3_check5" class="checkbox">Арамидные ткани</label>
+									</div>
+
+									<div class="field">
+										<input type="checkbox" name="group3" id="group3_check6">
+										<label for="group3_check6" class="checkbox">Эластичные ткани</label>
+									</div>
+
+									<div class="field">
+										<input type="checkbox" name="group3" id="group3_check7">
+										<label for="group3_check7" class="checkbox">Другое</label>
+									</div>
+								</div>
+
+
+								<div class="section">
+									<div class="title">Переплетение</div>
+
+									<div class="field">
+										<input type="checkbox" name="group4" id="group4_check1">
+										<label for="group4_check1" class="checkbox">Полотно</label>
+									</div>
+
+									<div class="field">
+										<input type="checkbox" name="group4" id="group4_check2">
+										<label for="group4_check2" class="checkbox">Твил</label>
+									</div>
+
+									<div class="field">
+										<input type="checkbox" name="group4" id="group4_check3">
+										<label for="group4_check3" class="checkbox">Рипсто</label>
+									</div>
+
+									<div class="field">
+										<input type="checkbox" name="group4" id="group4_check4">
+										<label for="group4_check4" class="checkbox">Сатин</label>
+									</div>
+
+									<div class="field">
+										<input type="checkbox" name="group4" id="group4_check5">
+										<label for="group4_check5" class="checkbox">Добби</label>
+									</div>
+
+									<div class="field">
+										<input type="checkbox" name="group4" id="group4_check6">
+										<label for="group4_check6" class="checkbox">Другое</label>
+									</div>
+								</div>
+
+
+								<div class="section">
+									<div class="title">Вес</div>
+
+									<div class="field">
+										<input type="checkbox" name="group5" id="group5_check1">
+										<label for="group5_check1" class="checkbox">"Легкие", (до 120 г/м2)</label>
+									</div>
+
+									<div class="field">
+										<input type="checkbox" name="group5" id="group5_check2">
+										<label for="group5_check2" class="checkbox">"Средние", (120-250 гр/м2)</label>
+									</div>
+
+									<div class="field">
+										<input type="checkbox" name="group5" id="group5_check3">
+										<label for="group5_check3" class="checkbox">"Тяжелые", (от 250 гр/м2)</label>
+									</div>
+								</div>
+
+
+								<div class="section big_h last">
+									<div class="title">Отделка</div>
+
+									<div class="field">
+										<input type="checkbox" name="group6" id="group6_check1">
+										<label for="group6_check1" class="checkbox">Easy Care</label>
+									</div>
+
+									<div class="field">
+										<input type="checkbox" name="group6" id="group6_check2">
+										<label for="group6_check2" class="checkbox">Splashgard</label>
+									</div>
+
+									<div class="field">
+										<input type="checkbox" name="group6" id="group6_check3">
+										<label for="group6_check3" class="checkbox">DWR</label>
+									</div>
+
+									<div class="field">
+										<input type="checkbox" name="group6" id="group6_check4">
+										<label for="group6_check4" class="checkbox">WR</label>
+									</div>
+
+									<div class="field">
+										<input type="checkbox" name="group6" id="group6_check5" checked>
+										<label for="group6_check5" class="checkbox">Splashgard Nafta</label>
+									</div>
+
+									<div class="field">
+										<input type="checkbox" name="group6" id="group6_check6">
+										<label for="group6_check6" class="checkbox">Splashgard Chemo</label>
+									</div>
+
+									<div class="field">
+										<input type="checkbox" name="group6" id="group6_check7">
+										<label for="group6_check7" class="checkbox">Sanitized</label>
+									</div>
+
+									<div class="field">
+										<input type="checkbox" name="group6" id="group6_check8">
+										<label for="group6_check8" class="checkbox">Другое</label>
+									</div>
+
+
+									<div class="submit">
+										<button type="submit" class="submit_btn">Применить</button>
+
+										<button type="reset" class="reset_btn">
+											<span>Сбросить</span>
+										</button>
+									</div>
+								</div>
+							</div>
+						</form>
+					</div>
+				</section>
+			</div>
+
+
+			<footer>
+				<div class="info">
+					<div class="cont row">
+						<div class="col_left">
+							<div class="logo">
+								<img src="images/logo.svg" alt="">
+							</div>
+
+							<div class="socials">
+								<a href="/" target="_blank" rel="noopener nofollow" class="vkontakte_link">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_vkontakte"></use></svg>
+								</a>
+
+								<a href="/" target="_blank" rel="noopener nofollow" class="facebook_link">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_facebook"></use></svg>
+								</a>
+
+								<a href="/" target="_blank" rel="noopener nofollow" class="youtube_link">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_youtube"></use></svg>
+								</a>
+							</div>
+
+							<div class="location">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_location"></use></svg>
+								<span>123290, г. Москва,<br> 1-й Магистральный тупик, д. 5А, БЦ «Магистраль Плаза», Блок С,5 этаж, офис 502</span>
+							</div>
+
+							<div class="email">
+								<a href="mailto:info@textime.ru">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_email"></use></svg>
+									<span>info@textime.ru</span>
+								</a>
+							</div>
+						</div>
+
+
+						<div class="links">
+							<div class="title">Покупателю</div>
+
+							<div class="list">
+								<div><a href="/">О компании</a></div>
+								<div><a href="/">Покупателям</a></div>
+								<div><a href="/">Оплата</a></div>
+								<div><a href="/">Доставка</a></div>
+								<div><a href="/">Новости</a></div>
+								<div><a href="/">Контакты</a></div>
+							</div>
+						</div>
+
+
+						<div class="contacts">
+							<div class="title">Контакты</div>
+
+							<div class="phone">
+								<div><a href="tel:88007008016">8(800)700-80-16</a></div>
+								<div>(Звонок по России бесплатный)</div>
+							</div>
+
+							<div class="time">ПН-ПТ <b>9.00—18.00</b></div>
+						</div>
+
+
+						<div class="subscribe">
+							<div class="title">Подписаться на рассылку</div>
+
+							<div class="desc">чтобы быть в курсе новинок, акций и спецпредложений</div>
+
+							<form action="">
+								<input type="email" name="" value="" class="input" placeholder="Укажите свой E-mail">
+
+								<button type="submit" class="submit_btn">Ок!</button>
+
+								<div class="agree">Нажимая на кнопку, я соглашаюсь на обработку моих персональных данных и принимаю <a href="/" target="_blank">политику конфиденциальности</a></div>
+							</form>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="bottom">
+					<div class="cont row">
+						<div class="copyright">&copy; 2021 г. ООО «ТекстТайм»</div>
+
+						<div class="privacy_policy">
+							<a href="/">Политика конфиденциальности</a>
+						</div>
+
+						<div class="creator">
+							<a href="/" target="_blank" rel="noopener">Разработка сайта - <span>Точка Ру</span></a>
+						</div>
+					</div>
+				</div>
+			</footer>
+
+
+			<a href="/" class="adventume_link">
+				<img src="images/ic_adventume_btn.png" alt="">
+			</a>
+
+			<div class="overlay"></div>
+		</div>
+
+
+		<div class="supports_error">
+			Ваш браузер устарел рекомендуем обновить его до последней версии<br> или использовать другой более современный.
+		</div>
+
+
+		<section class="modal" id="subscribe_success_modal">
+			<div class="text">Вы подписались на рассылку</div>
+		</section>
+
+
+		<!-- Подключение javascript файлов -->
+		<script src="js/jquery-3.5.0.min.js"></script>
+		<script src="js/lozad.min.js"></script>
+		<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+		<script src="js/inputmask.min.js"></script>
+		<script src="js/nice-select.js"></script>
+		<script src="js/fancybox.min.js"></script>
+		<script src="js/functions.js"></script>
+		<script src="js/scripts.js"></script>
+	</body>
+</html>

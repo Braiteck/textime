@@ -1,0 +1,801 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+		<!-- Адаптирование страницы для мобильных устройств -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+		<!-- Запрет распознования номера телефона -->
+		<meta name="format-detection" content="telephone=no">
+		<meta name="SKYPE_TOOLBAR" content ="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
+
+		<!-- Заголовок страницы -->
+		<title>Заголовок страницы</title>
+
+		<!-- Данное значение часто используют(использовали) поисковые системы -->
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+
+		<!-- Традиционная иконка сайта, размер 16x16, прозрачность поддерживается. Рекомендуемый формат: .ico или .png -->
+		<link rel="shortcut icon" href="favicon.ico">
+
+		<!-- Изменение цвета панели моб. браузера -->
+		<meta name="msapplication-TileColor" content="#EC691F">
+		<meta name="theme-color" content="#EC691F">
+
+		<!-- Подключение шрифтов с гугла -->
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+		<!-- Подключение файлов стилей -->
+		<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+		<link rel="stylesheet" href="css/swiper.css">
+		<link rel="stylesheet" href="css/fancybox.css">
+		<link rel="stylesheet" href="css/styles.css">
+
+		<link rel="stylesheet" href="css/response_1279.css" media="print, (max-width: 1279px)">
+		<link rel="stylesheet" href="css/response_1023.css" media="print, (max-width: 1023px)">
+		<link rel="stylesheet" href="css/response_767.css" media="print, (max-width: 767px)">
+		<link rel="stylesheet" href="css/response_479.css" media="(max-width: 479px)">
+	</head>
+
+	<body>
+		<div class="wrap">
+			<div class="main">
+				<header>
+					<button class="close"></button>
+
+					<div class="mob_scroll">
+						<div class="info">
+							<div class="cont row">
+								<a href="/" class="logo">
+									<img src="images/logo.svg" alt="">
+								</a>
+
+								<div class="contacts">
+									<div class="phone">
+										<a href="tel:88007008016">8(800)700-80-16</a>
+									</div>
+
+									<div class="email">
+										<a href="mailto:info@textime.ru">
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_email"></use></svg>
+											<span>info@textime.ru</span>
+										</a>
+									</div>
+								</div>
+
+								<div class="search">
+									<form action="">
+										<input type="text" name="" value="" class="input" placeholder="Поиск...">
+
+										<button type="submit" class="submit_btn">
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_search"></use></svg>
+										</button>
+									</form>
+								</div>
+
+								<div class="socials">
+									<a href="/" target="_blank" rel="noopener nofollow" class="vkontakte_link">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_vkontakte"></use></svg>
+									</a>
+
+									<a href="/" target="_blank" rel="noopener nofollow" class="facebook_link">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_facebook"></use></svg>
+									</a>
+
+									<a href="/" target="_blank" rel="noopener nofollow" class="youtube_link">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_youtube"></use></svg>
+									</a>
+								</div>
+
+								<div class="account">
+									<button class="login_btn">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_user"></use></svg>
+										<div>Личный кабинет</div>
+									</button>
+								</div>
+							</div>
+						</div>
+
+
+						<div class="bottom">
+							<div class="cont row">
+								<div class="catalog modal_cont">
+									<button class="btn mini_modal_btn" data-modal-id="#catalog_modal">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_catalog"></use></svg>
+										<span>Каталог</span>
+									</button>
+
+									<div class="mini_modal" id="catalog_modal">
+										<div class="row">
+											<div class="category">
+												<div class="title">
+													<a href="/">Ткани для силовых структур</a>
+												</div>
+
+												<div class="sub_cats">
+													<div><a href="/">Ткани антистатические</a></div>
+													<div><a href="/">Ткани для сварки  и металлургии</a></div>
+													<div><a href="/">Ткани мета-арамидные</a></div>
+													<div><a href="/">Ткани огнестойкие</a></div>
+													<div><a href="/">Трикотаж огнестойкий</a></div>
+													<div><a href="/">Ткани мультизащитные</a></div>
+													<div><a href="/">Сопутствующие материалы опз</a></div>
+													<div><a href="/">Защита от кислот, растворов  и щелочей</a></div>
+												</div>
+											</div>
+
+											<div class="category">
+												<div class="title">
+													<a href="/">Защитные ткани для спецодежды</a>
+												</div>
+
+												<div class="sub_cats">
+													<div><a href="/">Блузки, сорочки</a></div>
+													<div><a href="/">Коллекция для поваров. Horeca</a></div>
+													<div><a href="/">Коллекция печатных рисунков</a></div>
+													<div><a href="/">Медицинская одежда</a></div>
+													<div><a href="/">Одежда для обслуживающего персонала</a></div>
+													<div><a href="/">Новые волокна - новые эффекты</a></div>
+													<div><a href="/">Одежда для хирургов</a></div>
+													<div><a href="/">Ткани для наматрасников</a></div>
+													<div><a href="/">Стретч-комфорт в сервисной одежде</a></div>
+												</div>
+											</div>
+
+											<div class="category">
+												<div class="title">
+													<a href="/">Ткани для медицины и ОПЗ</a>
+												</div>
+
+												<div class="sub_cats">
+													<div><a href="/">Курточные ткани</a></div>
+													<div><a href="/">Защита от масел и кислот до 60%</a></div>
+													<div><a href="/">Защита от нетоксичной пыли</a></div>
+													<div><a href="/">Комфорт хлопка</a></div>
+													<div><a href="/">Общепроизводственная одежда</a></div>
+													<div><a href="/">Сигнальная одежда (флуоресцентные ткани и материалы</a></div>
+													<div><a href="/">Стретч-комфорт</a></div>
+													<div><a href="/">Ткани для наматрасников</a></div>
+												</div>
+											</div>
+
+											<div class="category">
+												<div class="title">
+													<a href="/">Ткани для Outdoor</a>
+												</div>
+											</div>
+
+											<div class="category">
+												<div class="title">
+													<a href="/">Технические и обувные материалы</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+
+
+								<nav class="menu row">
+									<div class="item">
+										<a href="/">Партнёры</a>
+									</div>
+
+									<div class="item">
+										<a class="active">О компании</a>
+									</div>
+
+									<div class="item">
+										<a href="/">Новости</a>
+									</div>
+
+									<div class="item">
+										<a href="/">Контакты</a>
+									</div>
+
+									<div class="item">
+										<a href="/">Вакансии</a>
+									</div>
+
+									<div class="item">
+										<a href="/">Условия/доставка</a>
+									</div>
+
+									<div class="item">
+										<a href="/">Технологии</a>
+									</div>
+								</nav>
+							</div>
+						</div>
+					</div>
+				</header>
+
+
+				<section class="mob_header">
+					<div class="cont">
+						<div class="logo">
+							<img src="images/logo.svg" alt="">
+						</div>
+
+						<div class="contacts">
+							<div class="phone">
+								<a href="tel:88007008016">8(800)700-80-16</a>
+							</div>
+
+							<div class="email">
+								<a href="mailto:info@textime.ru">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_email"></use></svg>
+									<span>info@textime.ru</span>
+								</a>
+							</div>
+						</div>
+
+						<div class="search modal_cont">
+							<button class="btn mini_modal_btn" data-modal-id="#mob_search_modal">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_search"></use></svg>
+							</button>
+
+							<div class="mini_modal" id="mob_search_modal">
+								<form action="">
+									<input type="text" name="" value="" class="input" placeholder="Поиск...">
+
+									<button type="submit" class="submit_btn">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_search"></use></svg>
+									</button>
+								</form>
+							</div>
+						</div>
+
+						<div class="account">
+							<button class="login_btn">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_user"></use></svg>
+							</button>
+						</div>
+
+						<button class="mob_menu_btn">
+							<span></span>
+						</button>
+					</div>
+				</section>
+
+
+				<section class="page_head">
+					<div class="cont">
+						<div class="breadcrumbs">
+							<a href="/">Главная</a> <span class="sep"></span>
+							<span class="current">О компании</span>
+						</div>
+					</div>
+				</section>
+
+
+				<section class="about_info block">
+					<div class="cont">
+						<div class="block_head">
+							<div class="title line"><b>О компании</b></div>
+						</div>
+
+						<div class="text_block">
+							<img src="images/tmp/text_img.jpg" alt="">
+
+							<p>Производственно-торговая текстильная группа ТЕКСТАЙМ — эксперт в области современных высокотехнологичных тканей и материалов для создания спецодежды, а также одежды, обуви и снаряжения для спорта и отдыха. В структуре компании собственное производство «Адвентум Технолоджис», работающее по лицензиям и в тесном сотрудничестве с ведущими мировыми компаниями Carrington (Англия) и Concordia (Бельгия).</p>
+
+							<p><b>Миссия:</b> ГК Текстайм нацелена на производство и поставку Российских высокотехнологичных тканей в одежде, обуви и снаряжении. Мы реализуем трансфер высоких технологий в Россию.<br> ТЕКСТАЙМ – многолетний поставщик инновационных тканей и материалов для рынка спецодежды. Открытие собственного производства в России Адвентум Технолоджис позволило нам предложить современные огнезащитные хлопковые и термостойкие арамидные ткани, многослойные дублированные мембранные ткани и пакеты материалов для одежды, обуви и снаряжения рынка Outdoor и силовых структур.<br> Производство Адвентум Технолоджис сосредоточено на наиболее важных и технологичных процессах в производстве ткани – процессе ламинации и покрытий (коатинга), химических процессах связанных с отделкой и крашением сверхлегких и тяжелых тканей, процессах придания тканям огнезащитных свойств, осуществляет ткачество и крашение синтетических термостойких тканей.</p>
+
+							<div class="text_carousel">
+								<div class="block_title">Заголовок блока со слайдером</div>
+
+								<div class="swiper-container carousel">
+									<div class="swiper-wrapper">
+										<div class="slide swiper-slide">
+											<a href="images/tmp/text_carousel_thumb.jpg" class="item fancy_img" data-fancybox="text_carousel">
+												<figure>
+													<div class="thumb">
+														<img data-src="images/tmp/text_carousel_thumb.jpg" alt="" class="lozad">
+													</div>
+
+													<figcaption>
+														<p>Производственно-торговая текстильная группа ТЕКСТАЙМ — эксперт в области современных высокотехнологичных тканей и материалов для создания спецодежды, а также одежды, обуви и снаряжения для спорта и отдыха. В структуре компании собственное производство</p>
+													</figcaption>
+												</figure>
+											</a>
+										</div>
+
+										<div class="slide swiper-slide">
+											<a href="images/tmp/text_carousel_thumb.jpg" class="item fancy_img" data-fancybox="text_carousel">
+												<figure>
+													<div class="thumb">
+														<img data-src="images/tmp/text_carousel_thumb2.jpg" alt="" class="lozad">
+													</div>
+
+													<figcaption>
+														<p>В структуре компании собственное производство «Адвентум Технолоджис», работающее по лицензиям и в тесном сотрудничестве с ведущими мировыми компаниями Carrington (Англия) и Concordia (Бельгия).</p>
+													</figcaption>
+												</figure>
+											</a>
+										</div>
+
+										<div class="slide swiper-slide">
+											<a href="images/tmp/text_carousel_thumb.jpg" class="item fancy_img" data-fancybox="text_carousel">
+												<figure>
+													<div class="thumb">
+														<img data-src="images/tmp/text_carousel_thumb3.jpg" alt="" class="lozad">
+													</div>
+
+													<figcaption>
+														<p>Производство Адвентум Технолоджис сосредоточено на наиболее важных и технологичных процессах в производстве ткани – процессе ламинации и покрытий (коатинга), химических процессах</p>
+													</figcaption>
+												</figure>
+											</a>
+										</div>
+
+										<div class="slide swiper-slide">
+											<a href="images/tmp/text_carousel_thumb.jpg" class="item fancy_img" data-fancybox="text_carousel">
+												<figure>
+													<div class="thumb">
+														<img data-src="images/tmp/text_carousel_thumb4.jpg" alt="" class="lozad">
+													</div>
+
+													<figcaption>
+														<p>Компания очень тщательно выбирает своих партнеров, ведь каждый из них – производитель высококачественной продукции, идущий собственным путем: путем инноваций, постоянного поиска и неугасаемого стремления к достижению идеала.</p>
+													</figcaption>
+												</figure>
+											</a>
+										</div>
+
+										<div class="slide swiper-slide">
+											<a href="images/tmp/text_carousel_thumb.jpg" class="item fancy_img" data-fancybox="text_carousel">
+												<figure>
+													<div class="thumb">
+														<img data-src="images/tmp/text_carousel_thumb.jpg" alt="" class="lozad">
+													</div>
+
+													<figcaption>
+														<p>Производственно-торговая текстильная группа ТЕКСТАЙМ — эксперт в области современных высокотехнологичных тканей и материалов для создания спецодежды, а также одежды, обуви и снаряжения для спорта и отдыха. В структуре компании собственное производство</p>
+													</figcaption>
+												</figure>
+											</a>
+										</div>
+
+										<div class="slide swiper-slide">
+											<a href="images/tmp/text_carousel_thumb.jpg" class="item fancy_img" data-fancybox="text_carousel">
+												<figure>
+													<div class="thumb">
+														<img data-src="images/tmp/text_carousel_thumb2.jpg" alt="" class="lozad">
+													</div>
+
+													<figcaption>
+														<p>В структуре компании собственное производство «Адвентум Технолоджис», работающее по лицензиям и в тесном сотрудничестве с ведущими мировыми компаниями Carrington (Англия) и Concordia (Бельгия).</p>
+													</figcaption>
+												</figure>
+											</a>
+										</div>
+
+										<div class="slide swiper-slide">
+											<a href="images/tmp/text_carousel_thumb.jpg" class="item fancy_img" data-fancybox="text_carousel">
+												<figure>
+													<div class="thumb">
+														<img data-src="images/tmp/text_carousel_thumb3.jpg" alt="" class="lozad">
+													</div>
+
+													<figcaption>
+														<p>Производство Адвентум Технолоджис сосредоточено на наиболее важных и технологичных процессах в производстве ткани – процессе ламинации и покрытий (коатинга), химических процессах</p>
+													</figcaption>
+												</figure>
+											</a>
+										</div>
+
+										<div class="slide swiper-slide">
+											<a href="images/tmp/text_carousel_thumb.jpg" class="item fancy_img" data-fancybox="text_carousel">
+												<figure>
+													<div class="thumb">
+														<img data-src="images/tmp/text_carousel_thumb4.jpg" alt="" class="lozad">
+													</div>
+
+													<figcaption>
+														<p>Компания очень тщательно выбирает своих партнеров, ведь каждый из них – производитель высококачественной продукции, идущий собственным путем: путем инноваций, постоянного поиска и неугасаемого стремления к достижению идеала.</p>
+													</figcaption>
+												</figure>
+											</a>
+										</div>
+									</div>
+
+									<div class="swiper-button-prev">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_slider_arrow"></use></svg>
+									</div>
+
+									<div class="swiper-button-next">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_slider_arrow"></use></svg>
+									</div>
+								</div>
+							</div>
+
+							<h2>H2  Заголовок для продвижения</h2>
+
+							<div class="message">
+								<p>Производственно-торговая текстильная группа ТЕКСТАЙМ — эксперт в области современных высокотехнологичных тканей и материалов для создания спецодежды, а также одежды, обуви и снаряжения для спорта и отдыха. В структуре компании собственное производство «Адвентум Технолоджис», работающее по лицензиям и в тесном сотрудничестве с ведущими мировыми компаниями Carrington (Англия) и Concordia (Бельгия).</p>
+
+								<p><b>Миссия:</b> ГК Текстайм нацелена на производство и поставку Российских высокотехнологичных тканей в одежде, обуви и снаряжении. Мы реализуем трансфер высоких технологий в Россию.</p>
+							</div>
+
+							<div class="cols">
+								<div class="col message">
+									<p>Производственно-торговая текстильная группа ТЕКСТАЙМ — эксперт в области современных высокотехнологичных тканей и материалов для создания спецодежды, а также одежды, обуви и снаряжения для спорта и отдыха. В структуре компании собственное производство «Адвентум Технолоджис», работающее по лицензиям и в тесном сотрудничестве с ведущими мировыми</p>
+								</div>
+
+								<div class="col message">
+									<p>ГК Текстайм нацелена на производство и поставку Российских высокотехнологичных тканей в одежде, обуви и снаряжении. Мы реализуем трансфер высоких технологий в Россию.<br> ТЕКСТАЙМ – многолетний поставщик инновационных тканей и материалов для рынка спецодежды. Открытие собственного производства в России Адвентум Технолоджис</p>
+								</div>
+							</div>
+
+							<div class="table_wrap">
+								<table>
+									<thead>
+										<tr>
+											<th>Тип ткани</th>
+											<th>Параметр</th>
+											<th>Категория</th>
+											<th>Цена</th>
+										</tr>
+									</thead>
+
+									<tbody>
+										<tr>
+											<td class="full">Клинкерные подоконники</td>
+											<td>Text</td>
+											<td class="nowrap">Профильный кирпич</td>
+											<td class="nowrap"><b>490 400</b> <span class="currency">7</span></td>
+										</tr>
+
+										<tr>
+											<td class="full">Ткани для сварки  и металлургии</td>
+											<td>Text</td>
+											<td class="nowrap">Ткани антистатические</td>
+											<td class="nowrap"><b>490 400</b> <span class="currency">7</span></td>
+										</tr>
+
+										<tr>
+											<td class="full">Ткани для сварки  и металлургии</td>
+											<td>Text</td>
+											<td class="nowrap">Ткани антистатические</td>
+											<td class="nowrap"><b>490 400</b> <span class="currency">7</span></td>
+										</tr>
+
+										<tr>
+											<td class="full">Ткани для сварки  и металлургии</td>
+											<td>Text</td>
+											<td class="nowrap">Ткани антистатические</td>
+											<td class="nowrap"><b>490 400</b> <span class="currency">7</span></td>
+										</tr>
+
+										<tr>
+											<td class="full">Ткани для сварки  и металлургии</td>
+											<td>Text</td>
+											<td class="nowrap">Ткани антистатические</td>
+											<td class="nowrap"><b>490 400</b> <span class="currency">7</span></td>
+										</tr>
+
+										<tr>
+											<td class="full">Ткани для сварки  и металлургии</td>
+											<td>Text</td>
+											<td class="nowrap">Ткани антистатические</td>
+											<td class="nowrap"><b>490 400</b> <span class="currency">7</span></td>
+										</tr>
+
+										<tr>
+											<td class="full">Ткани для сварки  и металлургии</td>
+											<td>Text</td>
+											<td class="nowrap">Ткани антистатические</td>
+											<td class="nowrap"><b>490 400</b> <span class="currency">7</span></td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+
+							<h3>Н3  Заголовок для продвижения</h3>
+
+							<ul>
+								<li>Необходимость увеличения объема воздуха, подаваемого в помещение (из-за большой поверхности из лучения) ;</li>
+								<li>Уменьшение доли лучистой теплоты, которая поступает в помещение (из-за отсутствия отражающей поверхности топки);</li>
+								<li>Необходимо обеспечивать защиту большой площади перед топкой такого камина.</li>
+								<li>Увеличение площади защищенной поверхности в 3 раза (защищенная поверхность должна располагаться с трех сторон камина);</li>
+								<li>Излучение тепла идет в трех направлениях, однако реальной эффективностью обладает лишь одна поверхность камина;</li>
+								<li>Небольшая общая теплоотдача камина.</li>
+							</ul>
+
+							<h4>Н4  Заголовок блока</h4>
+
+							<ol>
+								<li>Классические камины характеризуются П-образным порталом. Последний выполняют из различных материалов, к основным из которых относят дерево, чугун, малахит и мрамор. Чугун в наибольшей мере характерен для  английских каминов. Для отделки каминов традиционного типа часто используют различного вида скульптурные элементы или барельефы.</li>
+
+								<li>Традиционный камин. Кладка / возведение / сооружение / постройка каминов, печей (банных каменок, кухонных, отопительных, варочных, отопительно-варочных), строительство русской бани. Компания Раслово-Кладка<br> Камин в стиле Кантри. Кладка / возведение / сооружение / постройка каминов, печей (банных каменок, кухонных, отопительных, варочных, отопительно-варочных), строительство русской бани. Компания Раслово-Кладка</li>
+
+								<li>Камины в стиле Кантри (англ. — провинция, деревня) отличаются Д-образной формой портала и помещаемой сверху деревянной балкой. Корпус дымоотводящего тракта каминов данного типа, как правило, выполняют из гипса. В качестве материалов для каминов в стиле Кантри используют пористый камень типа «песчаник» или «ракушечник».</li>
+
+								<li>Камин в стиле Кантри. Кладка / возведение / сооружение / постройка каминов, печей (банных каменок, кухонных, отопительных, варочных, отопительно-варочных), строительство русской бани. Компания Раслово-Кладка</li>
+
+								<li>Камин в стиле Модерн. Кладка / возведение / сооружение / постройка каминов, печей (банных каменок, кухонных, отопительных, варочных, отопительно-варочных), строительство русской бани. Компания Раслово-Кладка</li>
+							</ol>
+						</div>
+					</div>
+				</section>
+
+
+				<section class="action_form block">
+					<div class="cont">
+						<div class="data">
+							<div class="info">
+								<div class="title">Сомневаетесь в выборе?<br> Не нашли что искали?</div>
+
+								<div class="desc">Оставьте заявку, мы ответим в ближайшее время</div>
+							</div>
+
+							<form action="" class="form">
+								<div class="columns row">
+									<div class="line width1of3">
+										<div class="field">
+											<input type="text" name="" value="" class="input" placeholder="Имя">
+										</div>
+									</div>
+
+									<div class="line width1of3">
+										<div class="field">
+											<input type="tel" name="" value="" class="input" placeholder="Телефон">
+										</div>
+									</div>
+
+									<div class="line width1of3">
+										<div class="field">
+											<input type="email" name="" value="" class="input" placeholder="E-mail">
+										</div>
+									</div>
+								</div>
+
+								<div class="line">
+									<div class="field">
+										<textarea name="" placeholder="Комментарий"></textarea>
+									</div>
+								</div>
+
+								<div class="bottom">
+									<div class="agree">
+										Нажимая на кнопку, я соглашаюсь на обработку моих персональных данных и принимаю  <a href="/" target="_blank">политику конфиденциальности</a>
+									</div>
+
+									<div class="submit">
+										<button type="submit" class="submit_btn">Отправить</button>
+									</div>
+								</div>
+							</form>
+
+							<div class="bg lozad" data-background-image="images/tmp/bg_action_form.jpg"></div>
+						</div>
+					</div>
+				</section>
+
+
+				<section class="materials block">
+					<div class="cont">
+						<div class="row">
+							<a href="/" class="material">
+								<div class="thumb">
+									<img data-src="images/tmp/material_thumb1.jpg" alt="" class="lozad">
+								</div>
+								<div class="name">Ткани антистатические</div>
+							</a>
+
+							<a href="/" class="material">
+								<div class="thumb">
+									<img data-src="images/tmp/material_thumb2.jpg" alt="" class="lozad">
+								</div>
+								<div class="name">Ткани для сварки и металлургии</div>
+							</a>
+
+							<a href="/" class="material">
+								<div class="thumb">
+									<img data-src="images/tmp/material_thumb3.jpg" alt="" class="lozad">
+								</div>
+								<div class="name">Ткани мета-арамидные</div>
+							</a>
+
+							<a href="/" class="material">
+								<div class="thumb">
+									<img data-src="images/tmp/material_thumb4.jpg" alt="" class="lozad">
+								</div>
+								<div class="name">Ткани огнестойкие</div>
+							</a>
+						</div>
+					</div>
+				</section>
+
+
+				<section class="accordion block">
+					<div class="cont">
+						<div class="block_head">
+							<div class="title line"><b>Технологии</b></div>
+						</div>
+
+						<div class="accordion">
+							<div class="item">
+								<div class="head">
+									<div class="title">Как выбрать антистатическую ткань для работы в теплое время года?</div>
+
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_toggle_arrow"></use></svg>
+								</div>
+
+								<div class="data">
+									<p>Да, конечно.<br> Например, спецодежда из курточной ткани САВУАР БСК выгодно отличается устойчивостью к постоянным воздействиям вредных факторов производства и плохим погодным условиям: водо- и нефтенепроницаема, морозостойка, ветронепроницаема. Благодаря «дышащей» PU-мембране ткани в костюме из САВУАР БСК комфортно работать, так как поддерживается естественный микроклимат пододежного пространства.</p>
+								</div>
+							</div>
+
+							<div class="item active">
+								<div class="head">
+									<div class="title">Может ли антистатическая ткань быть дышащей?</div>
+
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_toggle_arrow"></use></svg>
+								</div>
+
+								<div class="data" style="display: block;">
+									<p>Да, конечно.<br> Например, спецодежда из курточной ткани САВУАР БСК выгодно отличается устойчивостью к постоянным воздействиям вредных факторов производства и плохим погодным условиям: водо- и нефтенепроницаема, морозостойка, ветронепроницаема. Благодаря «дышащей» PU-мембране ткани в костюме из САВУАР БСК комфортно работать, так как поддерживается естественный микроклимат пододежного пространства.</p>
+								</div>
+							</div>
+
+							<div class="item">
+								<div class="head">
+									<div class="title">Существует ли светоотражающая антистаическая ткань? </div>
+
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_toggle_arrow"></use></svg>
+								</div>
+
+								<div class="data">
+									<p>Да, конечно.<br> Например, спецодежда из курточной ткани САВУАР БСК выгодно отличается устойчивостью к постоянным воздействиям вредных факторов производства и плохим погодным условиям: водо- и нефтенепроницаема, морозостойка, ветронепроницаема. Благодаря «дышащей» PU-мембране ткани в костюме из САВУАР БСК комфортно работать, так как поддерживается естественный микроклимат пододежного пространства.</p>
+								</div>
+							</div>
+
+							<div class="item">
+								<div class="head">
+									<div class="title">Какие условия для минимального заказа?</div>
+
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_toggle_arrow"></use></svg>
+								</div>
+
+								<div class="data">
+									<p>Да, конечно.<br> Например, спецодежда из курточной ткани САВУАР БСК выгодно отличается устойчивостью к постоянным воздействиям вредных факторов производства и плохим погодным условиям: водо- и нефтенепроницаема, морозостойка, ветронепроницаема. Благодаря «дышащей» PU-мембране ткани в костюме из САВУАР БСК комфортно работать, так как поддерживается естественный микроклимат пододежного пространства.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+			</div>
+
+
+			<footer>
+				<div class="info">
+					<div class="cont row">
+						<div class="col_left">
+							<div class="logo">
+								<img src="images/logo.svg" alt="">
+							</div>
+
+							<div class="socials">
+								<a href="/" target="_blank" rel="noopener nofollow" class="vkontakte_link">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_vkontakte"></use></svg>
+								</a>
+
+								<a href="/" target="_blank" rel="noopener nofollow" class="facebook_link">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_facebook"></use></svg>
+								</a>
+
+								<a href="/" target="_blank" rel="noopener nofollow" class="youtube_link">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_youtube"></use></svg>
+								</a>
+							</div>
+
+							<div class="location">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_location"></use></svg>
+								<span>123290, г. Москва,<br> 1-й Магистральный тупик, д. 5А, БЦ «Магистраль Плаза», Блок С,5 этаж, офис 502</span>
+							</div>
+
+							<div class="email">
+								<a href="mailto:info@textime.ru">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_email"></use></svg>
+									<span>info@textime.ru</span>
+								</a>
+							</div>
+						</div>
+
+
+						<div class="links">
+							<div class="title">Покупателю</div>
+
+							<div class="list">
+								<div><a href="/">О компании</a></div>
+								<div><a href="/">Покупателям</a></div>
+								<div><a href="/">Оплата</a></div>
+								<div><a href="/">Доставка</a></div>
+								<div><a href="/">Новости</a></div>
+								<div><a href="/">Контакты</a></div>
+							</div>
+						</div>
+
+
+						<div class="contacts">
+							<div class="title">Контакты</div>
+
+							<div class="phone">
+								<div><a href="tel:88007008016">8(800)700-80-16</a></div>
+								<div>(Звонок по России бесплатный)</div>
+							</div>
+
+							<div class="time">ПН-ПТ <b>9.00—18.00</b></div>
+						</div>
+
+
+						<div class="subscribe">
+							<div class="title">Подписаться на рассылку</div>
+
+							<div class="desc">чтобы быть в курсе новинок, акций и спецпредложений</div>
+
+							<form action="">
+								<input type="email" name="" value="" class="input" placeholder="Укажите свой E-mail">
+
+								<button type="submit" class="submit_btn">Ок!</button>
+
+								<div class="agree">Нажимая на кнопку, я соглашаюсь на обработку моих персональных данных и принимаю <a href="/" target="_blank">политику конфиденциальности</a></div>
+							</form>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="bottom">
+					<div class="cont row">
+						<div class="copyright">&copy; 2021 г. ООО «ТекстТайм»</div>
+
+						<div class="privacy_policy">
+							<a href="/">Политика конфиденциальности</a>
+						</div>
+
+						<div class="creator">
+							<a href="/" target="_blank" rel="noopener">Разработка сайта - <span>Точка Ру</span></a>
+						</div>
+					</div>
+				</div>
+			</footer>
+
+
+			<a href="/" class="adventume_link">
+				<img src="images/ic_adventume_btn.png" alt="">
+			</a>
+
+			<div class="overlay"></div>
+		</div>
+
+
+		<div class="supports_error">
+			Ваш браузер устарел рекомендуем обновить его до последней версии<br> или использовать другой более современный.
+		</div>
+
+
+		<section class="modal" id="action_success_modal">
+			<div class="text">Ваше сообщение отправлено</div>
+		</section>
+
+		<section class="modal" id="subscribe_success_modal">
+			<div class="text">Вы подписались на рассылку</div>
+		</section>
+
+
+		<!-- Подключение javascript файлов -->
+		<script src="js/jquery-3.5.0.min.js"></script>
+		<script src="js/lozad.min.js"></script>
+		<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+		<script src="js/inputmask.min.js"></script>
+		<script src="js/nice-select.js"></script>
+		<script src="js/fancybox.min.js"></script>
+		<script src="js/functions.js"></script>
+		<script src="js/scripts.js"></script>
+	</body>
+</html>
